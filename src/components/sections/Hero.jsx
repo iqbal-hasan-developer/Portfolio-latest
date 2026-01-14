@@ -8,6 +8,7 @@ import {
   SiMongodb,
   SiJavascript,
 } from "react-icons/si";
+import heroImg from "../../assets/ikbal.png"
 import { scrollToSection } from "../../hooks/useScrollSpy";
 import RadialGradientBackground from "../backgrounds/RadialGradientBackground";
 import { PERSONAL_INFO, STATS } from "../../utils/constants";
@@ -124,7 +125,7 @@ const Hero = () => {
               {/* image container */}
               <div className="relative rounded-2xl overflow-hidden m-px h-[calc(100%-2px)]">
                 <img
-                  src="../../src/assets/ikbal.png"
+                  src={heroImg}
                   alt=""
                   className="w-full h-full object-cover"
                 />
