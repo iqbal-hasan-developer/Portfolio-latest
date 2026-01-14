@@ -124,7 +124,7 @@ const Hero = () => {
               {/* image container */}
               <div className="relative rounded-2xl overflow-hidden m-px h-[calc(100%-2px)]">
                 <img
-                  src="../../src/assets/ikbal 3.png"
+                  src="../../src/assets/ikbal.png"
                   alt=""
                   className="w-full h-full object-cover"
                 />
