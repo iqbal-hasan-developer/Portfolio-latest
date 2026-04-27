@@ -7,6 +7,7 @@ import { Briefcase, ChevronLeft, ChevronRight, Globe, Palette, Target, Zap } fro
 
 import { motion } from 'framer-motion'
 import { fadeIn, slideIn } from '../../utils/motion'
+import { div } from 'framer-motion/client'
 
 
 
@@ -56,7 +57,7 @@ const Projects = () => {
     const CategoryIcons = {
         'All': Target,
         'Web Apps': Globe,
-        'UI Components': Palette,
+        'Frontend': Palette,
         'Full Stack': Zap,
     }
 
@@ -136,14 +137,20 @@ const Projects = () => {
                 className='overflow-x-auto scroll-smooth snap-x snap-mandatory hide-scrollbar'
                 >
                   <div className="flex gap-6 pb-4">
-                  {filteredProjects.map((project) => (
-                    <div
-                    key={project.id}
-                    className='w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] shrink-0 snap-start'
-                    >
-                       <ProjectCard project={project} /> 
+                  {filteredProjects.length > 0 ? (
+                    filteredProjects.map((project) => (
+                        <div
+                            key={project.id}
+                            className='w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] shrink-0 snap-start'
+                        >
+                            <ProjectCard project={project} />
+                        </div>
+                    ))
+                  ) : (
+                    <div className='text-center text-white/60 py-20 w-full'>
+                        No projects found in this category.
                     </div>
-                  ))}  
+                  )} 
                  </div>  
                 </div>
 

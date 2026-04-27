@@ -13,10 +13,10 @@ export const PERSONAL_INFO = {
 }
 
 export const SOCIAL_LINKS = {
-    github: 'https://github.com/ikbalalways',
-    linkedin: 'https://www.linkedin.com/in/iqbal-hossain-123456789/',
+    github: 'https://github.com/iqbal-hasan-developer',
+    linkedin: 'https://www.linkedin.com/in/ikbal-hosen-7684ab21b/',
     twitter: 'https://twitter.com/ikbalalways',
-    instagram: 'https://www.instagram.com/ikbalalways',
+    instagram: 'https://www.instagram.com/iqbal_hasan__/',
 }
 
 export const STATS = [

@@ -1,3 +1,4 @@
+import JarvisChat from "./components/JarvisChat/JarvisChat"
 import Footer from "./components/layouts/Footer"
 import Navbar from "./components/layouts/Navbar"
 import About from "./components/sections/About"
@@ -24,8 +25,9 @@ function App() {
           <Testimonials/> 
           <Contact/>
         </main>
-
         <Footer/>
+
+        <JarvisChat/>
       </div>
     
   )
