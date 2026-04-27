@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
     email: "ikbalalways@gmail.com",
     location: "Dhaka, Bangladesh",
     tagline: "Creating seamless web experiences with code and creativity.",
-    resume: "./Resume 2.0.pdf",
+    resume: "./Resume_2.0.pdf",
     bio: [
         "Passionate frontend developer with 3+ years of experience in building responsive and user-friendly web applications, skilled in JavaScript, React, and modern web technologies to deliver high-quality solutions.",
         "Committed to continuous learning and staying updated with the latest industry trends, adept at translating design mockups and wireframes into high-quality code, ensuring pixel-perfect implementation and optimal user experience.",
